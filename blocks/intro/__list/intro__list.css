@@ -1,0 +1,35 @@
+.intro__list {
+  margin: 33px auto 0 148px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  list-style-type: none;
+  padding: 0;
+  color: #FFFFFF
+}
+
+@media screen and (max-width: 1080px) {
+  .intro__list {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .intro__list {
+    max-width: 720px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .intro__list {
+    max-width: calc((690px/2 - 288px)/2 + 288px);
+  }
+}
+
+@media screen and (max-width: 554px) {
+  .intro__list {
+    margin: 34px auto 0 16px;
+    max-width: 288px;
+  }
+}
