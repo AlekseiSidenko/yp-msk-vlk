@@ -1,7 +1,6 @@
 .cover {
   display: flex;
   position: relative;
-  justify-content: center;
   width: calc(100% - 96px);
   margin: 92px auto 0 auto;
 }
