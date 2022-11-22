@@ -1,7 +1,0 @@
-.shadow {
-  transition: box-shadow 0.5s ease-in-out;
-}
-
-.shadow:hover {
-  box-shadow: 0 0 20px slategrey;
-}
