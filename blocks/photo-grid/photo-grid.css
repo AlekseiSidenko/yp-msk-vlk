@@ -20,7 +20,7 @@
 @media screen and (max-width: 880px) {
   .photo-grid {
     margin-top: 88px;
-    max-width: calc(100% - 48px);
+    width: calc(100% - 48px);
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 16px;
@@ -30,7 +30,7 @@
 @media screen and (max-width: 554px) {
   .photo-grid {
     margin-top: 64px;
-    max-width: calc(100% - 32px);
+    width: calc(100% - 32px);
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
     gap: 12px;
